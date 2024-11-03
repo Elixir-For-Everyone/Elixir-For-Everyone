@@ -1,0 +1,4 @@
+asciidoctor
+asciidoctor-pdf
+asciidoctor-epub3
+asciidoctor-multipage

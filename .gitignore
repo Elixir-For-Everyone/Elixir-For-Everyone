@@ -1,0 +1,5 @@
+vendor/
+book.pdf
+book.epub
+out/*
+.bundle/

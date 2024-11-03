@@ -1,0 +1,15 @@
+= Elixir For Everyone
+Aditya Kale <dev.adityakale@gmail.com>
+:doctype: book
+:toc: left
+:toclevels: 2
+:sectanchors:
+:source-highlighter: coderay
+:stylesheet: style.css
+:front-cover-image: image:src/images/cover.png[fit=fill]
+
+include::src/preface.adoc[]
+include::src/chapter1.adoc[]
+include::src/references.adoc[]
+include::src/about-the-author.adoc[]
+
