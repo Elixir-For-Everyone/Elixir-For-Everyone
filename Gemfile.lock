@@ -24,6 +24,7 @@ GEM
       prawn-templates (~> 0.1.0)
       treetop (~> 1.6.0)
       ttfunk (~> 1.7.0)
+    coderay (1.1.3)
     concurrent-ruby (1.3.4)
     css_parser (1.19.1)
       addressable
@@ -119,6 +120,7 @@ DEPENDENCIES
   asciidoctor-epub3
   asciidoctor-multipage
   asciidoctor-pdf
+  coderay
 
 BUNDLED WITH
    2.5.22

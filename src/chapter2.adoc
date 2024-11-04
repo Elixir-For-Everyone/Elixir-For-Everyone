@@ -1,0 +1,10 @@
+== Chapter 2: Introduction to Elixir
+
+In this chapter we will cover the following parts:
+
+* Installation of Elixir
+* Interactive Shell
+* Hello World
+
+include::content/chapter2/Installation.adoc[]
+include::content/chapter2/InteractiveShell.adoc[]
