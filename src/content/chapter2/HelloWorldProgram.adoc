@@ -1,0 +1,26 @@
+=== Hello World Program
+
+Let us take our first steps in elixir language by writing a hello world script
+
+[source,elixir]
+----
+IO.puts("Hello World")
+----
+Save this to the file `hello.exs`
+
+Now run the file using following command
+
+[source,bash]
+----
+$ elixir hello.exs
+Hello World
+----
+
+[NOTE]
+====
+There are two types of extensions that you will find for elixir programs
+`.exs` and `.ex`. `.exs` files are used for scripting purposes which can be 
+used for testing purposes while `.ex` files are which are compiled into bytecode
+as a part of library.
+====
+
