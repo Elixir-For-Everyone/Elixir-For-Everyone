@@ -10,6 +10,7 @@ Aditya Kale <dev.adityakale@gmail.com>
 
 include::src/preface.adoc[]
 include::src/chapter1.adoc[]
+include::src/chapter2.adoc[]
 include::src/references.adoc[]
 include::src/about-the-author.adoc[]
 
