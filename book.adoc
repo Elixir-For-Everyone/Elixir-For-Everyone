@@ -7,6 +7,8 @@ Aditya Kale <dev.adityakale@gmail.com>
 :source-highlighter: coderay
 :stylesheet: style.css
 :front-cover-image: image:src/images/cover.png[fit=fill]
+:icons: font
+:source-highlighter: rouge
 
 include::src/preface.adoc[]
 include::src/chapter1.adoc[]
