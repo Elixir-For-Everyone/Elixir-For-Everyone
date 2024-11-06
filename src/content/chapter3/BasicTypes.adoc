@@ -1,0 +1,97 @@
+=== Basic Data Types
+
+==== Integers
+Integers are whole numbers (without floating point), which can be positive,
+negetive or zero.
+
+[source,elixir]
+----
+iex(1)> 53
+53
+iex(2)> 0
+0
+iex(3)> -72
+-72
+iex(4)> 0xFFF
+4095
+----
+
+==== Floating Points
+Floating points are numbers with decimal point which can be positive,
+negetive or zero.
+
+[source,elixir]
+----
+iex(1)> 53.2
+53.2
+iex(2)> 1.0
+1.0
+iex(3)> -72.5
+-72.5
+----
+
+==== Boolean
+Booleans represent the truth values wheather `true` or `false`.
+
+[source,elixir]
+----
+iex(1)> true
+true
+iex(2)> false
+false
+----
+
+==== Atoms
+Atoms are constants whose value is its own name. They are generally used to
+enumearate over distict values.
+
+`true` and `false` are also atoms.
+
+[source,elixir]
+----
+iex(1)> :banana
+:banana
+iex(2)> :watermelon
+:watermelon
+iex(3)> :cheese
+:cheese
+iex(4)> true == :true
+true
+----
+
+We can have another syntax for atoms. Simply omit the staring colon
+and begin with an upper case character. These are called alias.
+
+[source,elixir]
+----
+iex(1)> Banana
+Banana
+iex(2)> Banana == :"Elixir.Banana"
+true
+----
+
+`nil` is another special atom like `true` and `false`. In elixir only
+`nil` and `false` are considered as falsy values rest are considered as
+truthy values
+
+[source,elxir]
+----
+iex(1)> nil == :nil
+true
+----
+
+
+==== Strings
+Strings are sequence of characters enclosed inside a double quote. They are 
+encoded in UTF-8.
+
+[source,elixir]
+----
+iex(1)> "The cat sat on the mat"
+"The cat sat on the mat"
+iex(2)> "1024"
+"1024"
+iex(3)> "false"
+"false"
+----
+
