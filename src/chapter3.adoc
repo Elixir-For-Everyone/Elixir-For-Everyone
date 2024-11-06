@@ -1,0 +1,8 @@
+== Chapter 3: Laying the Groundwork
+
+In this chapter we will cover the following parts:
+
+* Basic Types
+
+include::content/chapter3/BasicTypes.adoc[]
+
